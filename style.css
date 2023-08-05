@@ -1,0 +1,237 @@
+/* wrapper  */
+.wrapper{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#meinvisual {
+     max-width: 1960px;
+      max-height: 1300px;
+      margin-bottom: 60px;
+  }
+
+  #meinvisual img{
+    max-height: 1000px;
+  }
+
+  /* top_contents  */
+
+  #top_contents{
+    margin-top: 50px;
+  }
+
+  #top_contents p{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+  }
+
+  #top_contents h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+    
+  }
+
+  #top_contents h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2;
+  }
+
+  #top_contents .feature_title{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* service  */
+
+
+  #service{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(223, 255, 255);
+  }
+
+  #service p{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2;
+    padding: 0 10%;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+  }
+
+  #service h2{
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #service h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #service .service_title{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #service .service_contents_box{
+   display: flex;
+  }
+
+  #service article{
+    width: 30%;
+   margin: 0 auto;
+  }
+
+  #service article p{
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(32, 32, 32);
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0 ;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+
+  #service article .read_more {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #service article .read_more a{
+    color: black;
+    border-bottom: 1px solid black;
+    transition: all 0.3s;
+  }
+
+  #service article .read_more a:hover{
+    opacity: 0.6;
+    border-bottom: 0px solid ;
+  }
+
+  /* course  */
+
+  #course{
+    margin-top: 50px;
+    background-color: rgb(223, 255, 255);
+  }
+
+  #course h2{
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #course .course_title{
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+  }
+
+  #course .price_menu p{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2;
+    padding: 0 10%;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    margin-bottom: 40px;
+  }
+
+  #course .price_menu{
+    width: 50%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    display: block;
+  }
+
+  #course .price_menu h3{
+    font-size: 24px;
+    color: rgb(16, 16, 16);
+    background-color: rgb(102, 245, 142);
+  }
+
+
+  /* access  */
+
+  #access{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(223, 255, 255);
+  }
+
+  #access h2{
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #access .access_title{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+  }
+
+
+  #footer{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(223, 255, 255);
+  }
+
+  #footer p{
+    color: rgb(66, 66, 66);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+  }
+
+
+
+
+@media screen and (max-width:800px) {
+  #service .service_contents_box{
+    flex-flow: column;
+   }
+
+   #service article{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  #course .price_menu{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    display: block;
+  }
+}
